@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesen</title>
+    <link rel="stylesheet" href="stylesheetlesen.css"/>
+
+  </head>
+  <body> 
+<div>
+<ul>
+  
+  <li><a class="navlinks" href="../musik/musik.html">Musik</a></li>
+  <li><a class="navlinks" href="../kamera/kamera.html">Kamera</a></li>
+  <li><a class="navlinks" href="../gamen/gamen.html">Gamen</a></li>
+  <li><a class="active" href="../lesen/lesen.html">Lesen</a></li>
+  <li><a class="navrechts" href="../home/home.html">Home</a></li>
+</ul>
+</div>
+
+<div class="diashow">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./images/buch.jpg" style="width:160%">
+  
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./images/person.jpg" style="width:160%">
+    
+    </div>
+
+  </div>
+
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+
+
+
+<div class="main">
+  <h2>Lesen</h2>
+  Ich liebe B&uuml;cher. Ich mag es, in eine andere Welt abzutauchen und die Geschichte von jemandem mitzuerleben. Deshalb lese ich so gerne. 
+  Mein Lieblingsgenre beim lesen ist Fantasy.<br><br>
+  
+  Dies sind meine Lieblingsserien:<br><br>
+  
+  <strong>Skulduggery Pleasant</strong> <br><br>
+  <image class="inhalt" src="./images/sk.jpeg" alt="Skulduggery Pleasant"></image> 
+  <br><br>
+  Skulduggery Pleasant ist ein Detektiv und ein lebendes Skelett. Er ist Elementzauberer und kann somit die vier Elemente beeinflussen. Gemeinsam mit dem M&auml;dchen Valkyrie k&auml;mpft er gegen das B&ouml;se, um die Menschheit zu besch&uuml;tzen und die Existenz von Magie vor der Menschheit geheim zu halten. Skulduggery und Valkyrie sind beide sehr oft sarkastisch, was die B&uuml;cher manchmal sehr lustig macht.<br><br>
+  Die Serie hat 9 B&auml;nde und 4 Special Editions und spielt in Irland. Der Autor ist Derek Landy.<br><br><br>
+  
+  <strong>Harry Potter</strong><br><br>
+  <image class="inhalt" src="./images/hp.jpg" alt="Harry Potter"></image> 
+  <br><br>
+  Harry Potter wird an seinem elften Geburtstag and die Zaubereischule Hogwarts aufgenommen. Die Buchserie beschreibt sein Leben an dieser Schule und enth&uuml;llt immer mehr auch weshalb er kein normaler Sch&uuml;ler ist. <br><br>
+
+  Die Serie hat 7 B&auml;nde und spielt in England. Die Autorin ist J.K. Rolling. <br><br><br>
+  
+<strong>Samurai</strong> <br><br>
+<image class="inhalt" src="./images/s.jpg" alt="Samurai"></image> 
+<br><br>
+In Samurai geht es um den englischen Jungen Jack Fletcher, der in Japan strandet und dann der erste ausl&auml;ndische Samurai werden will. Die B&uuml;cher erz&auml;hlen seine Geschichte, wie er eine Samuraischule besucht und sich dann den Weg durch Japan sucht um wieder nach England zurück zu kommen.<br><br>
+
+Die Serie hat 10 B&auml;nde und spielt im 17. Jahrhundert in Japan. Der Autor ist Chris Bradford.<br><br><br>
+
+<strong>Warrior Cats</strong> <br><br>
+<image class="inhalt" src="./images/wc.jpg" alt="Warrior Cats"></image> 
+<br><br>
+
+Warrior Cats handelt von wilden Katzen, welche in Clans versuchen zu &uuml;berleben. Sie bekommen jedoch immer wieder Probleme untereinander, da es in Gewissen Jahren zu wenig Futter gibt oder weil sie Regeln der Clans brechen. Es gibt in jeder Staffel andere Katzen als Hauptpersonen.<br><br>
+
+Die Serie hat 7. Staffeln, jede Staffel hat 6 B&uuml;cher und insgesamt gibt es noch 29. Special Editions und 5 Comics. Die Staffeln spielen gr&ouml;sstenteils alle in einem Wald, wobei der Standort einmal gewechselt wird. Die Autorengruppe ist Erin Hunter.<br><br>
+
+  </div>
+  
+<footer>Made by Jeannine Steinacher</footer>
+  </body>
+</html>

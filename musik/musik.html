@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Musik</title>
+    <link rel="stylesheet" href="stylesheetmusik.css"/>
+
+  </head>
+  <body> 
+<div>
+<ul>
+  
+  <li><a class="active" href="../musik/musik.html">Musik</a></li>
+  <li><a class="navlinks" href="../kamera/kamera.html">Kamera</a></li>
+  <li><a class="navlinks" href="../gamen/gamen.html">Gamen</a></li>
+  <li><a class="navlinks" href="../lesen/lesen.html">Lesen</a></li>
+  <li><a class="navrechts" href="../home/home.html">Home</a></li>
+</ul>
+</div>
+
+<div class="diashow">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./images/plattenspieler2.png" style="width:160%">
+  
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./images/noten.png" style="width:160%">
+    
+    </div>
+
+  </div>
+
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+
+</div>
+
+
+
+<div class="main">
+    <h2>Musik</h2>
+
+  Die Musik, eines meiner wichtigsten Hobbys – und auch eines der wichtigsten Dinge in meinem Leben. <br>
+Sie begleitet mich schon lange und wird mich auch immer begleiten.<br>
+Nat&uuml;rlich h&ouml;re ich gerne und sehr oft Musik. Der Musikstil spielt keine grosse Rolle, ich mag fast alles, doch am liebsten h&ouml;re ich Electro.<br>
+Mein eigentliches Hobby ist jedoch nicht Musik h&ouml;ren, sondern Musik zu machen. Dies tue ich auf zwei Arten:<br>
+<br>
+Zum einen spiele ich seit etwa 7 Jahren Klavier. Ich habe die Genre Klassik, Jazz und Pop gelernt, doch am liebsten Improvisiere ich, oder spiele Klassik.<br>
+<br>
+Dies ist mein Klavier: <br>
+<image class="inhalt" src="./images/klavier.jpg" alt="klavier"> <br>
+
+  <br> Und zum anderen schreibe ich Songs am Computer. <br><br>
+
+  Inzwischen arbeite ich mit der Musiksoftware FL Studio.<br> 
+   Diese sieht so aus: <br>
+  <image class="inhalt" src="./images/flstudiosfull.png"  alt="flstudos"></image>
+  <br><br>
+  FL Studio ist eine DWA (Digital Audio Workstation). Es erm&ouml;glicht das Komponieren von Musikst&uuml;cken mithilfe von Sampels, Synthesizern und externen Midi-Ger&auml;ten (wie zum Beispiel ein Keyboard). Ausserdem kann man darin Tonmaterial aufnehmen und bearbeiten. Es stammt vom Unternehmen Image-Line Software.
+  <br><br>
+  Das Programm ist in verschiedene Fenster aufgeteilt: <br><br>
+  <strong>Die Playlist:</strong> <br>
+  In der Playlist werden Tonspuren und alles, was man im Song danach h&ouml;rt, organisiert und angeordnet. <br>
+  <image class="inhalt" src="./images/playlist.png" alt="playlist"></image>
+  <br><br>
+  <strong>Das Channel Rack:</strong> <br>
+  Das Channel Rack verwaltet virtuelle Instrumente und die dazugeh&ouml;rigen Midi Spuren. <br>
+  <image class="inhalt" src="./images/channel rack.png" alt="channel rack"></image>
+  <br><br>
+  <strong>Die Piano Roll</strong> <br>
+  In der Piano Roll werden die Midi Spuren und Instrumente bearbeitet und Melodie und Rhythmus manuell eingegeben. <br>
+  <image class="inhalt" src="./images/piano roll.png" alt="piano roll"></image>
+  <br><br>
+  <strong>Der Mixer</strong><br>
+  Im Mixer werden die verschiedenen spuren zugewiesen und man kann damit die Lautst&auml;rke der einzelnen Spuren anpassen sowie Effekte auf die Spur legen. <br>
+  <image class="inhalt" src="./images/mixer.png" alt="mixer"></image>
+  <br><br>
+  <strong>Der Browser</strong><br>
+  Im Browser werden Dateien, Projekte und Plug-ins verwaltet und organisiert. <br>
+  <image class="inhalt" src="./images/browser.png" alt="browser"></image>
+  <br><br>
+  Ich habe vor etwas l&auml;ngerer Zeit ein Song gemacht, jedoch noch nicht mit FL Studios, der inzwischen auf YouTube zu finden ist. Es war mein erster Song. Ich habe ihn mit einem Freund zusammen gemacht und er heisst Personal Angel:<br><br>
+  <iframe width="780" height="535" src="https://www.youtube.com/embed/PHoxZbaFqo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+<footer>Made by Jeannine Steinacher</footer>
+  </body>
+</html>
