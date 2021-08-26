@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kamera</title>
+    <link rel="stylesheet" href="stylesheetkamera.css"/>
+
+  </head>
+  <body> 
+<div>
+<ul>
+  
+  <li><a class="navlinks" href="../musik/musik.html">Musik</a></li>
+  <li><a class="active" href="../kamera/kamera.html">Kamera</a></li>
+  <li><a class="navlinks" href="../gamen/gamen.html">Gamen</a></li>
+  <li><a class="navlinks" href="../lesen/lesen.html">Lesen</a></li>
+  <li><a class="navrechts" href="../home/home.html">Home</a></li>
+</ul>
+</div>
+
+<div class="diashow">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./images/linse.jpg" style="width:160%">
+  
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./images/selfie.jpg" style="width:160%">
+    
+    </div>
+
+  </div>
+
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+
+
+
+<div class="main">
+  <h2>Kamera</h2>
+  Die Kamera wird eigentlich für zwei meiner Hobbys gebraucht. Filme und Kurzfilme drehen und Fotografieren. <br><br>
+
+  Ich habe in einem Film Namens Antoniusfeuer mitgespielt, der von der Gemeinde aus gedreht wurde. Ich spielte ein M&auml;dchen, welches mit ihren Freudinnen ein Verbrechen aufdeckt.
+  Dies zu drehen hat mir sehr viel Spass gemacht und ich m&ouml;chte unbedingt wieder einmal in einem Film mitspielen.<br><br>
+  
+  Von der Schule aus mussten wir in einer Gruppe einen Kurzfilm auf Franz&ouml;sisch drehen. Unserer hiess Inconnu und es geht um einen M&ouml;rder. Ich habe dabei das Drehbuch geschrieben, darin mitgespielt und den Film geschnitten sowie die Hintergrundmusik gemacht. <br><br>
+  Inconnu haben wir schlussendlich als MJJMfant Production vorgestellt:<br>
+  <image class="inhalt" src="./images/mjjmfantproductions.jpg"></image>
+  <br><br>
+  Auch das hat mir sehr viel Spass gemacht und ich m&ouml;chte noch weitere Kurzfilme drehen.<br><br>
+  
+  Ausserdem fotografiere ich sehr gerne. Am liebsten mache ich Makroaufnahmen.<br><br>
+  Hier sind ein paar meiner Fotos:<br>
+  <image class="inhalt" src="./images/blume.jpg" alt="blume"></image> 
+  <br><br>
+  <image class="inhalt" src="./images/pflanze.jpg" alt="pflanze"></image> 
+  <br><br>
+  <image class="inhalt" src="./images/biene.jpg" alt="biene"></image> 
+  <br><br>
+  <image class="inhalt" src="./images/sonne.jpg" alt="sonne"></image> 
+  <br><br>
+  <image class="inhalt" src="./images/mond.jpg" alt="mond"></image> 
+  <br><br>
+  <image class="inhalt" src="./images/ballon.jpg" alt="ballon"></image> 
+  <br><br>
+  <image class="inhalt" src="./images/wasserhan.jpg" alt="wasserhan"></image> 
+  <br><br>
+
+</div>
+  
+<footer>Made by Jeannine Steinacher</footer>
+  </body>
+</html>
